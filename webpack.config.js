@@ -7,7 +7,6 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const url = require('url');
 const IS_ENV = process.env.NODE_ENV == 'production'
-console.log(IS_ENV)
 
 module.exports = (options = {}) => ({
     entry: {
